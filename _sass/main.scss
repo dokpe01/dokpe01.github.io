@@ -3,8 +3,10 @@
 @forward 'layout';
 @forward 'pages';
 @font-face {
-    font-family: 'GowunDodum';
-    src: url('/assets/font/') format('ttf');
+    font-family: 'GowoonDodum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-display: swap;
+} body {
+    font-family: 'GowoonDodum';
 }
