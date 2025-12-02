@@ -2,3 +2,9 @@
 @forward 'components';
 @forward 'layout';
 @forward 'pages';
+@font-face {
+    font-family: 'GowunDodum';
+    src: url('/assets/font/GowunDodum.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
